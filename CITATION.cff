@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AI search citations dataset"
+abstract: >-
+  Monthly open dataset of the websites that ChatGPT, Google AI Overviews,
+  Google AI Mode, Gemini, Microsoft Copilot and Claude list as sources when
+  buyers ask about AI search, generative engine optimization (GEO) and AI
+  visibility. Release 2026.10 covers 138 answers (23 prompts on 6 engines)
+  collected from the United States on 2026-10-14.
+authors:
+  - name: "Cited (cited.io)"
+    website: "https://cited.io"
+version: "2026.10"
+date-released: "2026-10-15"
+license: CC-BY-4.0
+url: "https://github.com/Cited-io/ai-search-citations-dataset"
+keywords:
+  - ai search
+  - generative engine optimization
+  - answer engine optimization
+  - ai visibility
+  - citations
+  - chatgpt
+  - google ai overviews
+  - gemini
+  - copilot
+  - claude
