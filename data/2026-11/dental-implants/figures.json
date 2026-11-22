@@ -1,0 +1,718 @@
+{
+ "three_apps": {
+  "cities": 50,
+  "answers": {
+   "chatgpt": 100,
+   "aimode": 100,
+   "gemini": 50
+  },
+  "names_per_answer_median": {
+   "chatgpt": 4.0,
+   "aimode": 7.0,
+   "gemini": 3.0
+  },
+  "stability_jaccard_median": {
+   "chatgpt": 0.5,
+   "aimode": 0.625
+  },
+  "top_pick_same_on_all_three": "2 of 37",
+  "named_in_maps_top20": {
+   "chatgpt": "125 of 196",
+   "aimode": "245 of 328",
+   "gemini": "64 of 153"
+  },
+  "named_in_maps_top3": {
+   "chatgpt": "33 of 196",
+   "aimode": "67 of 328",
+   "gemini": "21 of 153"
+  },
+  "reviews_median_named_vs_not": [
+   357,
+   243.5,
+   381,
+   582
+  ],
+  "rating_median_named_vs_not": [
+   4.9,
+   4.8
+  ],
+  "source_kinds": {
+   "chatgpt": {
+    "dental directory / ranking site": 1075,
+    "health directory": 642,
+    "other": 245,
+    "practice website": 223,
+    "local press / city magazine": 74,
+    "hospital / university": 70,
+    "listing / list site": 53,
+    "google (maps, listing)": 25,
+    "yelp": 25
+   },
+   "aimode": {
+    "google (maps, listing)": 742,
+    "other": 44,
+    "practice website": 9,
+    "health directory": 1,
+    "listing / list site": 1
+   },
+   "gemini": {
+    "practice website": 116,
+    "other": 37,
+    "dental directory / ranking site": 7,
+    "health directory": 3,
+    "hospital / university": 3,
+    "reddit": 1,
+    "listing / list site": 1
+   }
+  },
+  "cited_kinds": {
+   "chatgpt": {
+    "dental directory / ranking site": 90,
+    "practice website": 32,
+    "other": 30,
+    "health directory": 26,
+    "google (maps, listing)": 25,
+    "yelp": 25,
+    "local press / city magazine": 11,
+    "hospital / university": 7,
+    "listing / list site": 4
+   },
+   "aimode": {
+    "google (maps, listing)": 1393,
+    "other": 52,
+    "practice website": 15,
+    "health directory": 1,
+    "listing / list site": 1
+   },
+   "gemini": {
+    "practice website": 123,
+    "other": 40,
+    "dental directory / ranking site": 7,
+    "hospital / university": 4,
+    "health directory": 3,
+    "reddit": 1,
+    "listing / list site": 1
+   }
+  },
+  "google_ai_overview_cities": "25 of 50",
+  "google_local_pack_cities": "49 of 50",
+  "google_aio_reference_kinds": {
+   "practice website": 40,
+   "google (maps, listing)": 25,
+   "other": 21,
+   "yelp": 4,
+   "local press / city magazine": 1,
+   "youtube": 1,
+   "health directory": 1,
+   "hospital / university": 1,
+   "reddit": 1
+  },
+  "search_volume_dental_implants_city": {
+   "dental implants austin": 1300,
+   "dental implants phoenix": 880,
+   "dental implants denver": 590,
+   "dental implants seattle": 390,
+   "dental implants portland": 480,
+   "dental implants boise": 210,
+   "dental implants salt lake city": 480,
+   "dental implants las vegas": 2400,
+   "dental implants albuquerque": 720,
+   "dental implants san diego": 880,
+   "dental implants sacramento": 480,
+   "dental implants fresno": 720,
+   "dental implants dallas": 720,
+   "dental implants san antonio": 1000,
+   "dental implants oklahoma city": 480,
+   "dental implants kansas city": 480,
+   "dental implants omaha": 210,
+   "dental implants minneapolis": 170,
+   "dental implants milwaukee": 260,
+   "dental implants chicago": 1300,
+   "dental implants indianapolis": 320,
+   "dental implants columbus": 480,
+   "dental implants cleveland": 210,
+   "dental implants detroit": 110,
+   "dental implants grand rapids": 170,
+   "dental implants louisville": 590,
+   "dental implants nashville": 720,
+   "dental implants memphis": 260,
+   "dental implants birmingham": 210,
+   "dental implants new orleans": 140,
+   "dental implants jackson": 110,
+   "dental implants little rock": 140,
+   "dental implants atlanta": 590,
+   "dental implants charlotte": 880,
+   "dental implants raleigh": 590,
+   "dental implants charleston": 260,
+   "dental implants jacksonville": 1000,
+   "dental implants tampa": 1600,
+   "dental implants miami": 1000,
+   "dental implants orlando": 480,
+   "dental implants richmond": 390,
+   "dental implants baltimore": 260,
+   "dental implants philadelphia": 880,
+   "dental implants pittsburgh": 320,
+   "dental implants jersey city": 140,
+   "dental implants hartford": 70,
+   "dental implants providence": 140,
+   "dental implants boston": 1000,
+   "dental implants buffalo": 260
+  }
+ },
+ "five_apps": {
+  "cities": 50,
+  "answers": {
+   "chatgpt": 100,
+   "aimode": 100,
+   "gemini": 50,
+   "aioverview": 46,
+   "claude": 50
+  },
+  "names_per_answer_median": {
+   "chatgpt": 4.0,
+   "aimode": 7.0,
+   "gemini": 3.0,
+   "aioverview": 3.0,
+   "claude": 5.0
+  },
+  "stability_jaccard_median": {
+   "chatgpt": 0.5,
+   "aimode": 0.625
+  },
+  "top_pick_same_on_all_three": "2 of 37",
+  "engines": [
+   "chatgpt",
+   "aimode",
+   "gemini",
+   "claude",
+   "aioverview"
+  ],
+  "top_pick_same_on_every_app": "0 of 34",
+  "top_pick_same_on_every_app_but_aioverview": "0 of 37",
+  "top_pick_largest_agreeing_group": {
+   "1 of 3": 1,
+   "1 of 4": 4,
+   "1 of 5": 8,
+   "2 of 4": 10,
+   "2 of 5": 16,
+   "3 of 4": 1,
+   "3 of 5": 5,
+   "4 of 5": 5
+  },
+  "first_picks": {
+   "Albuquerque, NM": {
+    "chatgpt": "Albuquerque Periodontal & Implant Specialists",
+    "aimode": "ABQ Dental Implant Center",
+    "gemini": "ClearChoice Dental Implant Center (Albuquerque)",
+    "claude": "Osuna Dental Care",
+    "aioverview": "Rio Grande Oral Surgery & Dental Implant Center"
+   },
+   "Atlanta, GA": {
+    "chatgpt": "Hal N. Arnold, DMD",
+    "aimode": "Atlanta Center for Advanced Periodontics - Dr. Brock Pumphrey",
+    "gemini": "Perio Atlanta",
+    "claude": "Andrew C. Aiken, DMD, MD",
+    "aioverview": "Dental Implant and Aesthetic Specialists"
+   },
+   "Austin, TX": {
+    "chatgpt": "Periodontal Surgical Arts",
+    "aimode": "Periodontal Surgical Arts",
+    "gemini": "Oral Surgery Specialists of Austin",
+    "claude": "Council Oak Perio (Dr. Christopher Bingham)",
+    "aioverview": "Nuvia Dental Implant Center"
+   },
+   "Baltimore, MD": {
+    "chatgpt": "Maryland Prosthodontic Associates",
+    "aimode": "Dr. Peter Joseph, D.M.D Periodontics and Implants",
+    "claude": "Maryland Center for Oral Surgery & Dental Implants (Timonium)",
+    "aioverview": "Dr. Peter Joseph, D.M.D Periodontics and Implants"
+   },
+   "Birmingham, AL": {
+    "chatgpt": "Maniscalco Oral Surgery and Implant Center",
+    "aimode": "Birmingham Dental Implant Studio",
+    "gemini": "Birmingham Dental Implant Studio",
+    "claude": "Dr. Brett Maddux, Alabama Periodontics",
+    "aioverview": "Birmingham Dental Implant Studio"
+   },
+   "Boise, ID": {
+    "chatgpt": "Table Rock Oral Surgery and Dental Implants",
+    "aimode": "Table Rock Oral Surgery and Dental Implants",
+    "gemini": "Boise Oral Surgery & Dental Implant Center",
+    "claude": "Idaho Perio Center for Dental Implants and Laser Therapy"
+   },
+   "Boston, MA": {
+    "chatgpt": "The Face Dental Group",
+    "aimode": "Dr. Ashley Amini-Sami | Board-Certified Prosthodontist",
+    "claude": "Smileboston Cosmetic & Implant Dentistry (Brookline)",
+    "aioverview": "Dr. Ashley Amini-Sami"
+   },
+   "Buffalo, NY": {
+    "chatgpt": "716 Oral Surgery & Dental Implant Studio",
+    "aimode": "Hybridge Dental Implants",
+    "gemini": "Buffalo Dental Implant",
+    "claude": "Dr. Todd Shatkin (Aesthetic Associates Centre)",
+    "aioverview": "Buffalo General Dentistry"
+   },
+   "Charleston, SC": {
+    "chatgpt": "Center for Periodontics & Implant Dentistry",
+    "aimode": "Center for Periodontics & Implant Dentistry",
+    "claude": "Periodontal Associates",
+    "aioverview": "Center for Periodontics & Implant Dentistry"
+   },
+   "Charlotte, NC": {
+    "chatgpt": "PerioCare",
+    "aimode": "Charlotte Dental Implant Center",
+    "gemini": "Signature Periodontics and Implant Dentistry",
+    "claude": "Charlotte Dental Arts (Dr. Edwin Porter)"
+   },
+   "Chicago, IL": {
+    "chatgpt": "Chicago Oral Surgery & Implant Center",
+    "aimode": "New Teeth Chicago Dental Implants & Cosmetic Dentistry",
+    "gemini": "ORA Oral Surgery & Implant Studio",
+    "claude": "Chicago Oral Surgery & Implant Center (West Loop)",
+    "aioverview": "New Teeth Chicago Dental Implants & Cosmetic Dentistry"
+   },
+   "Cleveland, OH": {
+    "chatgpt": "Cleveland Dental Implant Center",
+    "aimode": "Ohio Dental Implants & Oral Surgery",
+    "claude": "Cleveland Implant Institute (Concord/Mentor)",
+    "aioverview": "Ohio Dental Implants & Oral Surgery"
+   },
+   "Columbus, OH": {
+    "chatgpt": "Stoner Periodontic & Implant Specialists - Upper Arlington",
+    "aimode": "Oral Implants & Reconstructive Dentistry",
+    "gemini": "Spectrum Dental and Prosthodontics",
+    "claude": "Stoner Periodontics & Implant Specialists",
+    "aioverview": "Dr. Fred Alger Periodontics & Dental Implants"
+   },
+   "Dallas, TX": {
+    "chatgpt": "The Dental Implant Center",
+    "aimode": "The Dental Implant Center",
+    "gemini": "Dental Implant Center",
+    "claude": "The Dental Implant Center (Dr. David McFadden), Lovers Lane",
+    "aioverview": "Dallas Periodontal Associates & Dental Implants"
+   },
+   "Denver, CO": {
+    "chatgpt": "Periodontics & Dental Implants of Central Park",
+    "aimode": "Smile Clinic Colorado Dental Implant Center",
+    "gemini": "Dr. John Justus, DDS",
+    "claude": "Advanced Dental Implant Center of Denver",
+    "aioverview": "Nuvia Dental Implant Center"
+   },
+   "Detroit, MI": {
+    "chatgpt": "Lakeshore Dental Specialists",
+    "aimode": "Detroit Dental Spa",
+    "claude": "Daws Dental in Livonia",
+    "aioverview": "Great Expressions Dental Centers (Detroit Ren Cen)"
+   },
+   "Fresno, CA": {
+    "chatgpt": "My top 5 dental implant recommendations in Fresno",
+    "aimode": "Fresno Oral Maxillofacial Surgery & Dental Implant Center",
+    "gemini": "Valley Oak Oral Surgery (Dr. Justin Nassiri)",
+    "claude": "Fresno Oral Maxillofacial Surgery & Dental Implant Center",
+    "aioverview": "Fresno Oral Maxillofacial Surgery & Dental Implant Center"
+   },
+   "Grand Rapids, MI": {
+    "chatgpt": "Advanced Oral Surgery & Dental Implant Studio",
+    "aimode": "Advanced Oral Surgery & Dental Implant Studio",
+    "gemini": "Eisin Periodontics & Implant Dentistry",
+    "claude": "Advanced Oral Surgery & Dental Implant Studio",
+    "aioverview": "Advanced Oral Surgery & Dental Implant Studio"
+   },
+   "Hartford, CT": {
+    "chatgpt": "Connecticut Center for Oral, Facial & Implant Surgery, PC",
+    "aimode": "JP Dental Hartford",
+    "claude": "Dr. Avinash Bidra (Advanced Cosmetic and Implant Dentistry)",
+    "aioverview": "Connecticut Center for Oral, Facial & Implant Surgery, PC"
+   },
+   "Indianapolis, IN": {
+    "chatgpt": "Kurt Van Winkle D.D.S., M.S.D., P.C.",
+    "aimode": "Indy East Periodontics & Dental Implants",
+    "claude": "Indiana Oral & Maxillofacial Surgery Associates (IOMSA)",
+    "aioverview": "Nuvia Dental Implant Center"
+   },
+   "Jackson, MS": {
+    "chatgpt": "Central Mississippi Oral and Maxillofacial Surgery, Kyle T. Hunt DMD",
+    "aimode": "Mississippi Prosthetic Dentistry",
+    "gemini": "Central MS Oral",
+    "claude": "Capital Dental (Dr. Will Umphlett)",
+    "aioverview": "Mississippi Prosthetic Dentistry"
+   },
+   "Jacksonville, FL": {
+    "chatgpt": "JAX Implants & Dentures",
+    "aimode": "Jacksonville Center for Prosthodontics and Implant Dentistry",
+    "gemini": "Florida Dental Implant Studio",
+    "claude": "Forever Smiles Implant Center",
+    "aioverview": "Nuvia Dental Implant Center"
+   },
+   "Jersey City, NJ": {
+    "chatgpt": "Dental Associates of Jersey City",
+    "aimode": "Jersey City Oral Surgery & Dental Implant Center",
+    "gemini": "Jersey City Oral Surgery & Dental Implant Center",
+    "claude": "Limitless Dental (Dr. Nick Ciardiello)",
+    "aioverview": "Jersey City Oral Surgery & Dental Implant Center"
+   },
+   "Kansas City, MO": {
+    "chatgpt": "Kansas City Oral Surgery & Implant Center",
+    "aimode": "Kansas City Oral Surgery & Implant Center",
+    "gemini": "KC Dental Implants & Oral Surgery",
+    "claude": "Dental Care Center of South Kansas City",
+    "aioverview": "Kansas City Oral Surgery & Implant Center"
+   },
+   "Las Vegas, NV": {
+    "chatgpt": "Significance Dental Specialists",
+    "aimode": "Canyon Oral & Facial Surgery Dental Implant Experts of Las Vegas",
+    "gemini": "Canyon Oral & Facial Surgery",
+    "claude": "Kikuchi Oral Surgery & Dental Implant Center",
+    "aioverview": "Dental Implant Institute"
+   },
+   "Little Rock, AR": {
+    "chatgpt": "Valley Oral and Maxillofacial Surgery",
+    "aimode": "Capitol Oral Surgery & Implant Center",
+    "gemini": "Pinnacle Periodontics & Dental Implant Center",
+    "claude": "Dental Implant Docs",
+    "aioverview": "Capitol Oral Surgery & Implant Center"
+   },
+   "Louisville, KY": {
+    "chatgpt": "Advanced Implant Centers",
+    "aimode": "Nuvia Dental Implant Center",
+    "claude": "Innovative Oral Surgery & Dental Implant Studio",
+    "aioverview": "Nuvia Dental Implant Center"
+   },
+   "Memphis, TN": {
+    "chatgpt": "Bluff City Oral Surgery",
+    "aimode": "Sexton and Weiskopf Oral & Maxillofacial Surgery, PLLC",
+    "gemini": "Walnut Grove Dental Group",
+    "claude": "Periodontal Associates of Memphis",
+    "aioverview": "Dental Implant Aesthetic Center"
+   },
+   "Miami, FL": {
+    "chatgpt": "Dr. Implant Westchester",
+    "aimode": "Gallardo Periodontics and Implant Dentistry",
+    "gemini": "Dr. Beatriz E. Terry, DDS, MS",
+    "claude": "Dr. John Paul Gallardo (Gallardo Periodontics & Implant Dentistry)",
+    "aioverview": "Gallardo Periodontics and Implant Dentistry"
+   },
+   "Milwaukee, WI": {
+    "chatgpt": "Barry R. Franzen, D.D.S.",
+    "aimode": "Community Oral & Maxillofacial Surgery",
+    "gemini": "Dental Associates (Dr. Marc Manos)",
+    "claude": "Hampton Dental Associates (Dr. Richard Winter)",
+    "aioverview": "Major Dental Clinics of Milwaukee"
+   },
+   "Minneapolis, MN": {
+    "chatgpt": "Metropolitan Periodontists, P.A.",
+    "aimode": "Downtown Periodontics & Implant Dentistry",
+    "gemini": "Bassett Creek Dental",
+    "claude": "Parkway Dental Center (Southwest Minneapolis)",
+    "aioverview": "Downtown Periodontics & Implant Dentistry"
+   },
+   "Nashville, TN": {
+    "chatgpt": "Solace Implant Center & Oral Surgery",
+    "aimode": "ClearChoice Dental Implant Center - Nashville",
+    "gemini": "Nashville Cosmetic & Implant Dentistry",
+    "claude": "Dr. Clint Newman",
+    "aioverview": "My New Smile Dental"
+   },
+   "New Orleans, LA": {
+    "chatgpt": "Dental Implants and Periodontics of Louisiana",
+    "aimode": "Camenzuli Dental Excellence: Comprehensive Care | Sedation Dentistry I Implants I Orthodontics",
+    "claude": "Audubon Dental Group",
+    "aioverview": "Camenzuli Dental Excellence"
+   },
+   "Oklahoma City, OK": {
+    "chatgpt": "OKC Dental Implants & Periodontic Center",
+    "aimode": "Oral and Maxillofacial Associates",
+    "claude": "OKC Smiles (Dr. Kevin Murray, Dr. Trip Fuller)",
+    "aioverview": "Downtown Dental"
+   },
+   "Omaha, NE": {
+    "chatgpt": "Periodontics and Dental Implant Solutions",
+    "aimode": "Periodontics and Dental Implant Solutions",
+    "gemini": "Implant / Restorative Dentist",
+    "claude": "Frost Periodontics & Dental Implants",
+    "aioverview": "Midwest Oral Surgery & Dental Implants"
+   },
+   "Orlando, FL": {
+    "chatgpt": "Makris Dental Prosthodontics",
+    "aimode": "Orlando Dental Implants: Dr. Connor Van",
+    "gemini": "Dr. Ronald J. Trevisani, DMD, JD, RPh",
+    "claude": "Sand Lake Dental (Dr. Phillips)",
+    "aioverview": "Lake Lucerne Cosmetic and Implant Dentistry"
+   },
+   "Philadelphia, PA": {
+    "chatgpt": "Laudenbach Periodontics & Dental Implants",
+    "aimode": "Philadelphia Oral & Maxillofacial Surgery",
+    "claude": "Laudenbach Periodontics & Dental Implants",
+    "aioverview": "Philadelphia Oral & Maxillofacial Surgery"
+   },
+   "Phoenix, AZ": {
+    "chatgpt": "Butura Oral and Dental Implant Surgery",
+    "aimode": "Aria Dental Implant Center",
+    "gemini": "Aria Dental Implant Center",
+    "claude": "Dr. Trujillo, Arizona Periodontal Group"
+   },
+   "Pittsburgh, PA": {
+    "chatgpt": "Diperna James A DMD",
+    "aimode": "Pittsburgh Dental Implants and Periodontics",
+    "gemini": "Pittsburgh Dental Implants and Periodontics",
+    "claude": "Pittsburgh Oral Surgery",
+    "aioverview": "Pittsburgh Dental Implants and Periodontics"
+   },
+   "Portland, ME": {
+    "chatgpt": "Corey + Then - Dental Implants Periodontics Oral Surgery",
+    "aimode": "Oral & Maxillofacial Surgery Associates",
+    "gemini": "Prosthodontics Associates, P.A",
+    "claude": "Periodontal Associates (Portland)",
+    "aioverview": "Corey + Then - Dental Implants Periodontics Oral Surgery"
+   },
+   "Portland, OR": {
+    "chatgpt": "Advanced Dentistry",
+    "aimode": "Centerport Cosmetic & Implant Dentistry",
+    "gemini": "Implant-focused general dentists",
+    "claude": "Wellness Dental",
+    "aioverview": "Dr. Benjamin Wang \u2013 Centerport Cosmetic & Implant Dentistry"
+   },
+   "Providence, RI": {
+    "chatgpt": "Providence Periodontics and Implants Center",
+    "aimode": "Providence Periodontics and Implants Center",
+    "gemini": "Rhode Island Oral Surgery & Implant Center",
+    "claude": "Bio Dental in North Providence",
+    "aioverview": "Dr. Theberge"
+   },
+   "Raleigh, NC": {
+    "chatgpt": "North Raleigh Periodontics and Implant Center",
+    "aimode": "North Carolina Implants and Periodontics",
+    "gemini": "Envision Dental Implant Center",
+    "claude": "NC Implants & Periodontics (Dr. Thiago Morelli)",
+    "aioverview": "Carolina Implant"
+   },
+   "Richmond, VA": {
+    "chatgpt": "Drs. Miller & Beitz",
+    "aimode": "Drs. Miller & Beitz",
+    "gemini": "Richmond Implant & Smile Studio",
+    "claude": "Richmond Implant & Smile Studio (Dr. Rami Ammoun)",
+    "aioverview": "Advanced Dentistry of Richmond"
+   },
+   "Sacramento, CA": {
+    "chatgpt": "Aria Dental Implants & Perio | Sacramento",
+    "aimode": "Aria Dental Implants & Perio | Sacramento",
+    "gemini": "Dr. Tamir Wardany, DDS (Wardany Oral Implantology)",
+    "claude": "Dr. Tamir Wardany (Wardany Oral Implantology)",
+    "aioverview": "Diana C. Fat, DDS"
+   },
+   "Salt Lake City, UT": {
+    "chatgpt": "Utah Implants & Periodontics",
+    "aimode": "Utah Implants & Periodontics",
+    "gemini": "Wasatch Perio / MVPerio",
+    "claude": "Stubbs Dental Implant Center",
+    "aioverview": "Allan S. Thomas, DMD"
+   },
+   "San Antonio, TX": {
+    "aimode": "Alamo Heights Implant Center",
+    "gemini": "Advanced Periodontics & Dental Implants",
+    "claude": "South Texas Dental Implants & Prosthodontics (Dr. Bryhn Simmons)",
+    "aioverview": "Cosmetic Dentistry of San Antonio"
+   },
+   "San Diego, CA": {
+    "chatgpt": "San Diego Periodontics & Implant Dentistry",
+    "aimode": "The Oral Surgery & Dental Implant Specialists of San Diego",
+    "gemini": "Implant / Cosmetic Dentist",
+    "claude": "San Diego Smile Dentistry",
+    "aioverview": "Dental Implant Centers"
+   },
+   "Seattle, WA": {
+    "chatgpt": "Dental Specialties Northwest",
+    "aimode": "Seattle Specialty Dentistry",
+    "gemini": "Seattle Implant & Prosthetic Dentistry",
+    "claude": "Da Vinci Dental",
+    "aioverview": "Seattle Implant & Prosthetic Dentistry"
+   },
+   "Tampa, FL": {
+    "chatgpt": "North Tampa Periodontics & Implant Dentistry",
+    "aimode": "Prosthodontics and Implant Therapy Tampa",
+    "claude": "Bay Premier Dentistry"
+   }
+  },
+  "named_in_maps_top20": {
+   "chatgpt": "125 of 196",
+   "aimode": "245 of 328",
+   "gemini": "64 of 153",
+   "aioverview": "107 of 159",
+   "claude": "126 of 267"
+  },
+  "named_in_maps_top3": {
+   "chatgpt": "33 of 196",
+   "aimode": "67 of 328",
+   "gemini": "21 of 153",
+   "aioverview": "39 of 159",
+   "claude": "34 of 267"
+  },
+  "reviews_median_named_vs_not": [
+   361,
+   228.5,
+   419,
+   544
+  ],
+  "rating_median_named_vs_not": [
+   4.9,
+   4.8
+  ],
+  "source_kinds": {
+   "chatgpt": {
+    "dental directory / ranking site": 1075,
+    "health directory": 642,
+    "other": 245,
+    "practice website": 223,
+    "local press / city magazine": 74,
+    "hospital / university": 70,
+    "listing / list site": 53,
+    "google (maps, listing)": 25,
+    "yelp": 25
+   },
+   "aimode": {
+    "google (maps, listing)": 742,
+    "other": 44,
+    "practice website": 9,
+    "health directory": 1,
+    "listing / list site": 1
+   },
+   "gemini": {
+    "practice website": 116,
+    "other": 37,
+    "dental directory / ranking site": 7,
+    "health directory": 3,
+    "hospital / university": 3,
+    "reddit": 1,
+    "listing / list site": 1
+   },
+   "aioverview": {
+    "practice website": 86,
+    "other": 38,
+    "dental directory / ranking site": 5,
+    "listing / list site": 4,
+    "yelp": 4,
+    "health directory": 3,
+    "youtube": 1
+   },
+   "claude": {
+    "practice website": 299,
+    "yelp": 78,
+    "other": 66,
+    "dental directory / ranking site": 16,
+    "health directory": 7,
+    "local press / city magazine": 3
+   }
+  },
+  "cited_kinds": {
+   "chatgpt": {
+    "dental directory / ranking site": 90,
+    "practice website": 32,
+    "other": 30,
+    "health directory": 26,
+    "google (maps, listing)": 25,
+    "yelp": 25,
+    "local press / city magazine": 11,
+    "hospital / university": 7,
+    "listing / list site": 4
+   },
+   "aimode": {
+    "google (maps, listing)": 1393,
+    "other": 52,
+    "practice website": 15,
+    "health directory": 1,
+    "listing / list site": 1
+   },
+   "gemini": {
+    "practice website": 123,
+    "other": 40,
+    "dental directory / ranking site": 7,
+    "hospital / university": 4,
+    "health directory": 3,
+    "reddit": 1,
+    "listing / list site": 1
+   },
+   "aioverview": {
+    "practice website": 85,
+    "other": 36,
+    "dental directory / ranking site": 5,
+    "listing / list site": 4,
+    "yelp": 4,
+    "health directory": 3,
+    "youtube": 1
+   },
+   "claude": {
+    "practice website": 190,
+    "yelp": 65,
+    "other": 39,
+    "dental directory / ranking site": 9,
+    "health directory": 3,
+    "local press / city magazine": 2
+   }
+  },
+  "google_ai_overview_cities": "25 of 50",
+  "google_local_pack_cities": "49 of 50",
+  "google_aio_reference_kinds": {
+   "practice website": 40,
+   "google (maps, listing)": 25,
+   "other": 21,
+   "yelp": 4,
+   "local press / city magazine": 1,
+   "youtube": 1,
+   "health directory": 1,
+   "hospital / university": 1,
+   "reddit": 1
+  },
+  "search_volume_dental_implants_city": {
+   "dental implants austin": 1300,
+   "dental implants phoenix": 880,
+   "dental implants denver": 590,
+   "dental implants seattle": 390,
+   "dental implants portland": 480,
+   "dental implants boise": 210,
+   "dental implants salt lake city": 480,
+   "dental implants las vegas": 2400,
+   "dental implants albuquerque": 720,
+   "dental implants san diego": 880,
+   "dental implants sacramento": 480,
+   "dental implants fresno": 720,
+   "dental implants dallas": 720,
+   "dental implants san antonio": 1000,
+   "dental implants oklahoma city": 480,
+   "dental implants kansas city": 480,
+   "dental implants omaha": 210,
+   "dental implants minneapolis": 170,
+   "dental implants milwaukee": 260,
+   "dental implants chicago": 1300,
+   "dental implants indianapolis": 320,
+   "dental implants columbus": 480,
+   "dental implants cleveland": 210,
+   "dental implants detroit": 110,
+   "dental implants grand rapids": 170,
+   "dental implants louisville": 590,
+   "dental implants nashville": 720,
+   "dental implants memphis": 260,
+   "dental implants birmingham": 210,
+   "dental implants new orleans": 140,
+   "dental implants jackson": 110,
+   "dental implants little rock": 140,
+   "dental implants atlanta": 590,
+   "dental implants charlotte": 880,
+   "dental implants raleigh": 590,
+   "dental implants charleston": 260,
+   "dental implants jacksonville": 1000,
+   "dental implants tampa": 1600,
+   "dental implants miami": 1000,
+   "dental implants orlando": 480,
+   "dental implants richmond": 390,
+   "dental implants baltimore": 260,
+   "dental implants philadelphia": 880,
+   "dental implants pittsburgh": 320,
+   "dental implants jersey city": 140,
+   "dental implants hartford": 70,
+   "dental implants providence": 140,
+   "dental implants boston": 1000,
+   "dental implants buffalo": 260
+  }
+ }
+}

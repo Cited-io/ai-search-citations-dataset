@@ -1,8 +1,8 @@
 # Methodology: how the AI search citations dataset is collected
 
-Each month we ask a fixed set of buyer questions about AI search to several AI engines, once each, from the US. We record which sources each engine listed with its answer.
-The October 2026 release was collected on 2026-10-14 and covers 23 questions on 6 engines, 138 answers in all.
-It is a snapshot of one run, not an average. Read the limits below before drawing conclusions.
+Each release asks AI engines a set of buyer questions and records what each answer listed and cited as sources, and, from 2026-11, which businesses or products it named.
+The October 2026 release (2026-10-14) asked 23 questions about AI search on 6 engines, 138 answers. The November 2026 release (2026-11-19 to 2026-11-21) is four studies of who AI names for local businesses and B2B software; it is described [at the end](#the-2026-11-release).
+Every release is a snapshot of one or two runs, not an average. Read the limits before drawing conclusions.
 
 ## Contents
 
@@ -12,7 +12,8 @@ It is a snapshot of one run, not an average. Read the limits below before drawin
 - [How the raw sources were cleaned](#how-the-raw-sources-were-cleaned)
 - [What is left out](#what-is-left-out)
 - [Limits](#limits)
-- [Monthly releases](#monthly-releases)
+- [Releases](#releases)
+- [The 2026-11 release](#the-2026-11-release)
 
 ## What was asked
 
@@ -77,15 +78,56 @@ Five answers listed no sources at all. They appear in `answers.jsonl` with empty
   - On "GEO agency for local businesses", engines localised the answer to a US city.
 - **No user history.** Answers came from fresh sessions with no account history or memory. People who are signed in may see different answers.
 
-## Monthly releases
+## Releases
 
-We plan to re-run the same prompts every month with the same settings and publish each run as a new folder under `data/` (for example `data/2026-11/`).
+Each study we run is published as a new folder under `data/`. The 2026-10 questions were planned as a monthly re-run; November brought new studies instead, so releases now follow the studies rather than the calendar.
 
-- Prompt ids stay fixed across releases: `p01` will always mean "best AI visibility tools". New prompts get new ids, and retired ids are never reused.
+- If the 2026-10 questions are asked again, their prompt ids stay fixed: `p01` will always mean "best AI visibility tools". New prompts get new ids, and retired ids are never reused.
 - If a setting changes (an engine added, a country added, a different model), the release notes in the [README](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/README.md) will say so.
+
+## The 2026-11 release
+
+Three studies, one folder each under `data/2026-11/`. Every question named a place or a category and asked for the best.
+
+| Study | Question | Where | Engines and runs | Asked |
+|---|---|---|---|---|
+| `local-businesses` | "Who's the best {personal injury lawyer, roofing company, med spa} in {city}, {state}?" | 20 US cities | ChatGPT and Google AI Mode twice, Gemini once | 2026-11-19 |
+| `dental-implants` | "Who's the best dentist for dental implants in {city}, {state}?" | 50 US cities | ChatGPT and Google AI Mode twice, Gemini once (2026-11-19); Claude and Google AI Overviews once (2026-11-21) | 2026-11-19, 2026-11-21 |
+| `b2b-software` | "What's the best {category} for a mid-size B2B company?" | the US, 20 software categories | as dental implants | 2026-11-19, 2026-11-21 |
+
+**How the engines were asked.**
+- **ChatGPT, Google AI Mode and Gemini:** through a commercial AI search monitoring service that asks each engine logged out and returns the answer with its sources. ChatGPT searched the web for every answer. ChatGPT and Gemini were asked from the city's state, Google AI Mode from the city itself, and B2B questions from the US.
+- **Claude:** through Anthropic's Messages API (`claude-sonnet-5-5`) with web search on (up to 5 searches), located in the city or the US.
+- **Google AI Overviews:** the question searched on Google from the city (or the US), desktop, first page.
+- **What that means:** these are answers as a tracker gets them, not as a person sees them in the apps. The ChatGPT and Claude apps decide for themselves when to search, so a person asking can see a different list.
+
+**Google Maps.** For each local question we read Google Maps' top 20 for the trade's own search in the same city ("personal injury lawyer", "dental implants", "plumber" and so on), with each listing's rating and review count, through a commercial search data service.
+- Maps was read in 20 of 20 cities for each local study, and in 49 of 50 cities for dental implants.
+
+**Named, cited and listed.**
+- **Named:** the businesses or products an answer recommends, read from its text by fixed rules: names in bold, a list line's leading name, a place card's name, a table's first column, with headings and directories skipped. Each engine's first pick was checked by eye.
+- **Cited:** a page the engine quoted inline in its answer.
+- **Listed:** a page that only appeared among its sources.
+- **Matching to Maps:** a named business is matched to a Maps listing when their names, with common words such as "law", "group" or "dental" removed, are the same or one contains the other, or when they are at least 85% alike.
+
+**Cleaning.** As in 2026-10: ChatGPT's `utm_source=chatgpt.com` tag removed from URLs, nothing else changed, exact duplicates within one answer dropped.
+
+**What is left out of 2026-11.**
+- **Answer text,** as in 2026-10.
+- **Google Maps' listings themselves** (names, ratings and review counts), which are Google's to publish. The studies' review medians are published as computed (`figures.json`).
+- **A fourth study, eight more local trades,** which joins on 15 December 2026 with its write-up on cited.io.
+- **A fintech study** run beside `local-businesses`, because we no longer publish it.
+- **Perplexity and Microsoft Copilot,** which weren't asked: the monitoring service couldn't reach them logged out.
+
+**Limits of 2026-11.**
+- **One or two runs on one or two days.** Answers change about half their list between runs, so one city's list is a snapshot, not a ranking.
+- **Two dates in two studies.** Claude and Google AI Overviews were asked two days after the other engines.
+- **Names from free text.** The rules miss a few names and keep a few that aren't businesses, Gemini's most.
+- **A link, not a cause.** Named businesses had more Google reviews; that doesn't prove the reviews got them named.
+- **Ranking sites unchecked.** We didn't check who runs the directories and ranking sites the engines cited, or whether their listings are paid.
 
 For what these numbers can and cannot tell you about your own brand, see Cited's guide on [how to measure AI visibility](https://cited.io/guides/how-to-measure-ai-visibility).
 
 ---
 
-Maintained by [Cited](https://cited.io): AI SEO and GEO agency with its own AI visibility platform.
+Maintained by [Cited](https://cited.io), an AI search and SEO agency.

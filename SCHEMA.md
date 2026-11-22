@@ -1,6 +1,6 @@
 # Schema: columns and fields in the AI search citations dataset
 
-Each monthly release is a folder `data/YYYY-MM/` with three data files: `citations.csv` (one row per listed source), `answers.jsonl` (one object per answer) and `prompts.csv` (one row per prompt).
+Each release is a folder `data/YYYY-MM/`. The 2026-10 release has three data files: `citations.csv` (one row per listed source), `answers.jsonl` (one object per answer) and `prompts.csv` (one row per prompt).
 All files are UTF-8. The CSV files have a header row and use standard RFC 4180 quoting, because some URLs contain commas.
 An answer is identified by `date`, `country`, `engine` and `prompt_id` together.
 
@@ -82,8 +82,39 @@ New engines get new ids. Existing ids will not change.
 | `how-to` | How AI search works and how to show up in it. | 9 |
 | `brand` | Questions about one named company. Reserved; no prompts in this group are published in 2026-10. | 0 |
 
+## The 2026-11 release
+
+One folder per study under `data/2026-11/`. Engine ids in these files are the studies' own: `chatgpt`, `aimode` (Google AI Mode), `gemini`, `claude`, `aioverview` (Google AI Overviews), Lists inside a CSV cell are separated by `; `.
+
+### by_city_<trade>.csv, practices_by_city.csv and b2b_by_category.csv
+
+One row per city (or category).
+
+| Column | Description |
+|---|---|
+| `city` / `category` | The city ("Austin, TX") or software category asked about. |
+| `searches_a_month_…` | Google's US searches a month for the trade plus the city, or "best {category}" (dental implants and B2B only). |
+| `chatgpt_named`, `aimode_named`, `gemini_named`, `claude_named`, `aioverview_named` | The first six businesses or products that engine named, in the order named (first run). |
+| `google_ai_overview` | Whether Google showed an AI Overview for the question's search (`yes`/`no`). |
+| `maps_data` | Whether Google Maps was read for the city (`yes`, else `missing` or `no`). |
+
+### figures.json
+
+The study's figures as its analysis computed them, by trade (or `three_apps` and `five_apps`): businesses named per answer (median), how often the engines agreed on the first pick, named businesses found in Maps' top 20 and top 3 (`"36 of 87"`), `reviews_median_named_vs_not` (median Google reviews of the Maps top-20 listings any engine named, of those none named, and how many listings each), ratings likewise, and the kinds of pages listed and cited, in percent or counts.
+
+### top_domains.csv
+
+| Column | Description |
+|---|---|
+| `study` | The trade or study. |
+| `engine` | The engine (the studies' ids). |
+| `kind` | `cited` (quoted in the answer) or `listed` (among its sources). |
+| `rank` | 1 for the domain counted most, and so on, up to 25. |
+| `domain` | The domain. |
+| `answers_or_pages` | How many cited or listed pages came from it, across the study's answers. |
+
 How the data was collected and cleaned: [METHODOLOGY.md](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/METHODOLOGY.md).
 
 ---
 
-Maintained by [Cited](https://cited.io): AI SEO and GEO agency with its own AI visibility platform.
+Maintained by [Cited](https://cited.io), an AI search and SEO agency.

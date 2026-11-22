@@ -1,8 +1,32 @@
-# AI search citations dataset: which websites AI engines list as sources
+# AI search citations dataset: which websites AI engines list as sources, and who they name
 
-An open, monthly dataset of the websites that ChatGPT, Google AI Overviews, Google AI Mode, Gemini, Microsoft Copilot and Claude list as sources when buyers ask about AI search, generative engine optimization (GEO) and AI visibility.
-The first release, 2026-10, covers 138 answers (23 prompts on 6 engines, asked from the US on 2026-10-14), with 1,001 listed URLs from 566 domains.
+An open dataset of what AI engines (ChatGPT, Google AI Overviews, Google AI Mode, Gemini, Microsoft Copilot and Claude) list and cite as sources, and which businesses and products they name, when buyers ask them questions. It is updated with each study we run.
 It is free to use under CC BY 4.0.
+
+| Release | Collected | What was asked | Answers |
+|---|---|---|---|
+| [2026-10](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/summary.md) | 2026-10-14 | 23 buyer questions about AI search and GEO, on 6 engines | 138 |
+| [2026-11](https://github.com/Cited-io/ai-search-citations-dataset/tree/main/data/2026-11) | 2026-11-19 to 2026-11-21 | Who's the best local business, in 20 or 50 US cities, in 4 trades; the best B2B software, in 20 categories | 786 (300 + 346 + 140) |
+
+## Headline findings (2026-11)
+
+Three studies, one folder each under `data/2026-11/`. Each folder's `summary.md` prints every number below from its own files.
+
+1. **Local businesses: personal injury lawyers, roofers and med spas, 20 cities** ([summary](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-11/local-businesses/summary.md), [write-up on cited.io](https://cited.io/who-ai-cites/local-businesses)).
+   - **Reviews:** the businesses ChatGPT, Google AI Mode or Gemini named had a median of 368, 225 and 298 Google reviews; the Google Maps top-20 listings none of them named had 68.5, 52 and 90.
+   - **Agreement:** all three engines named the same business first in 0 of 12, 2 of 19 and 1 of 13 cities.
+   - **Directories:** ChatGPT cited directories and ranking sites most (avvo.com for lawyers, theroofingbrief.com for roofers, nobsmedspareviews.com for med spas). Google AI Mode cited Google's own listings.
+2. **Dental implants, 50 cities, five engines** ([summary](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-11/dental-implants/summary.md), [write-up](https://cited.io/who-ai-cites/dental-implants)).
+   - **Reviews:** practices any engine named had a median of 361 Google reviews; those passed over had 228.5.
+   - **Agreement:** all five engines never named the same practice first (0 of 34 cities).
+   - **Google Maps:** 17% of the practices ChatGPT named were in Maps' top 3 for the same search.
+3. **B2B software, 20 categories, five engines** ([summary](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-11/b2b-software/summary.md), [write-up](https://cited.io/who-ai-cites/b2b-software)).
+   - **Agreement:** all five engines named the same product first in 5 of 13 categories.
+   - **Sources:** every engine cited third-party comparisons and lists most (57% of ChatGPT's cited pages, 87% of Claude's). Vendors' own sites came next on ChatGPT (39%). Google AI Mode added youtube.com (11%) and reddit.com (7%).
+
+A fourth study, eight more local trades in the same 20 cities, joins this release with its write-up on cited.io on 15 December 2026.
+
+"Cited" means the engine quoted the page in its answer; "listed" means the page only appeared among its sources. Answers were asked through the engines' APIs with web search on, not in their apps; see [METHODOLOGY.md](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/METHODOLOGY.md).
 
 ## Headline findings (2026-10)
 
@@ -10,22 +34,21 @@ It is free to use under CC BY 4.0.
 2. **Google leans on Reddit and YouTube; Claude and Copilot never listed them.** reddit.com was listed in more answers than any other domain (21 of 138), and youtube.com came second (13). Google AI Overviews listed youtube.com in 43.5% of its answers and reddit.com in 39.1%. Claude and Copilot listed neither in any answer.
 3. **Vendors' own sites show up when buyers compare tools.** On the 8 tool questions, 30 of 48 answers (62.5%) listed the website of at least one of 22 named AI visibility vendors. Copilot was the exception, at 2 of 8, partly because it read "Profound alternatives" as a question about the word.
 
-Every number above is computed, with the SQL shown, in [the 2026-10 summary](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/summary.md).
+Every 2026-10 number above is computed, with the SQL shown, in [the 2026-10 summary](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/summary.md).
 "Listed as sources" means the sources the engine returned with its answer. It is not the same as a quoted citation.
 
 ## Contents
 
-- [Data: citations.csv (2026-10)](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/citations.csv): one row per answer and listed URL, in order.
-- [Data: answers.jsonl (2026-10)](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/answers.jsonl): one object per answer, with its domain and URL lists and fan-out queries.
-- [Data: prompts.csv (2026-10)](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/prompts.csv): the 23 prompts, their ids and groups.
-- [Summary (2026-10)](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/summary.md): top domains overall and per engine, domains per answer, Reddit, YouTube and G2, vendor sites on tool questions.
-- [Methodology](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/METHODOLOGY.md): how the answers were collected and cleaned, and the limits.
+- **2026-10:** [citations.csv](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/citations.csv), [answers.jsonl](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/answers.jsonl), [prompts.csv](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/prompts.csv) and its [summary](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/summary.md).
+- **2026-11**, one folder per study, each with its `summary.md`:
+  - `local-businesses/`: `by_city_{law,roofing,medspa}.csv`, `top_domains.csv`, `figures.json`.
+  - `dental-implants/`: `practices_by_city.csv`, `top_domains.csv`, `figures.json`.
+  - `b2b-software/`: `b2b_by_category.csv`, `top_domains.csv`, `figures.json`.
+- [Methodology](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/METHODOLOGY.md): how each release was collected and cleaned, and the limits.
 - [Schema](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/SCHEMA.md): every column and field.
-- [Contributing](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/CONTRIBUTING.md): how to report a problem or suggest a prompt.
-- [License (CC BY 4.0)](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/LICENSE)
-- [CITATION.cff](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/CITATION.cff)
+- [Contributing](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/CONTRIBUTING.md), [License (CC BY 4.0)](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/LICENSE), [CITATION.cff](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/CITATION.cff).
 
-## What is in the data
+## What is in the 2026-10 release
 
 | | 2026-10 |
 |---|---|
@@ -83,20 +106,15 @@ ORDER BY domains_per_answer DESC;
 
 Count answers, not rows. An engine can list several pages from one domain in a single answer, and `citations.csv` has a row for each.
 
-## Release schedule
+## Releases
 
-We plan a new release every month, in a new folder (`data/2026-11/`, `data/2026-12/` and so on), with the same prompts and settings so months can be compared.
-Prompt ids stay fixed across releases. Any change to engines, countries or settings will be listed here.
-
-| Release | Collected | Answers | Notes |
-|---|---|---|---|
-| [2026-10](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/data/2026-10/summary.md) | 2026-10-14 | 138 | First release. Perplexity unavailable. |
+A new release comes with each study we run, in a new folder under `data/`. The 2026-10 questions were planned as a monthly re-run; November brought new studies instead, so releases now follow the studies rather than the calendar. Prompt ids in the 2026-10 release stay fixed if it is re-run. Every change of engines, countries or settings is listed in the release's notes and in METHODOLOGY.md.
 
 Mirrors on Hugging Face and Zenodo may come later. For now, this repository is the only copy.
 
 ## How to cite it
 
-> Cited (cited.io). (2026). *AI search citations dataset* (Version 2026.10) [Data set]. https://github.com/Cited-io/ai-search-citations-dataset
+> Cited (cited.io). (2026). *AI search citations dataset* (Version 2026.11) [Data set]. https://github.com/Cited-io/ai-search-citations-dataset
 
 GitHub's "Cite this repository" button gives the same reference from [CITATION.cff](https://github.com/Cited-io/ai-search-citations-dataset/blob/main/CITATION.cff).
 
@@ -116,4 +134,4 @@ The URLs in the data point to third-party pages. This license covers our collect
 
 ---
 
-Maintained by [Cited](https://cited.io): AI SEO and GEO agency with its own AI visibility platform. Read our guide on [how to measure AI visibility](https://cited.io/guides/how-to-measure-ai-visibility).
+Maintained by [Cited](https://cited.io), an AI search and SEO agency. Read our guide on [how to measure AI visibility](https://cited.io/guides/how-to-measure-ai-visibility).

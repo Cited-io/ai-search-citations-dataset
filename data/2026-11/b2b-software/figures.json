@@ -1,0 +1,387 @@
+{
+ "three_apps": {
+  "categories": 20,
+  "names_per_answer_median": {
+   "chatgpt": 4.0,
+   "aimode": 3.5,
+   "gemini": 5.0
+  },
+  "stability_jaccard_median_top8": {
+   "chatgpt": 0.6333333333333333,
+   "aimode": 0.5
+  },
+  "top_pick_same_on_all_three": "6 of 14",
+  "source_kinds": {
+   "chatgpt": {
+    "third-party comparison / listicle": 1163,
+    "vendor's own site": 992,
+    "review site / analyst": 63,
+    "google (maps, listing)": 14,
+    "local press / city magazine": 2,
+    "hospital / university": 1
+   },
+   "aimode": {
+    "third-party comparison / listicle": 195,
+    "vendor's own site": 57,
+    "youtube": 38,
+    "reddit": 30,
+    "review site / analyst": 20
+   },
+   "gemini": {
+    "third-party comparison / listicle": 67,
+    "vendor's own site": 27,
+    "review site / analyst": 6,
+    "reddit": 1,
+    "youtube": 1
+   }
+  },
+  "cited_kinds": {
+   "chatgpt": {
+    "third-party comparison / listicle": 150,
+    "vendor's own site": 103,
+    "review site / analyst": 8,
+    "google (maps, listing)": 1
+   },
+   "aimode": {
+    "third-party comparison / listicle": 450,
+    "vendor's own site": 91,
+    "youtube": 79,
+    "reddit": 52,
+    "review site / analyst": 39
+   },
+   "gemini": {
+    "third-party comparison / listicle": 82,
+    "vendor's own site": 30,
+    "review site / analyst": 6,
+    "reddit": 1,
+    "youtube": 1
+   }
+  },
+  "share_of_ai_source_domains_in_google_top10_median": 0.0664488017429194,
+  "share_of_ai_cited_domains_in_google_top10_median": 0.1213235294117647,
+  "google_ai_overview_categories": "20 of 20",
+  "google_aio_reference_kinds": {
+   "third-party comparison / listicle": 82,
+   "vendor's own site": 23,
+   "youtube": 22,
+   "review site / analyst": 17,
+   "reddit": 16,
+   "listing / list site": 2
+  },
+  "google_organic_top10_kinds": {
+   "third-party comparison / listicle": 111,
+   "vendor's own site": 21,
+   "review site / analyst": 17,
+   "none": 11,
+   "reddit": 6,
+   "listing / list site": 1
+  },
+  "search_volume_best_category": {
+   "best crm software": 18100,
+   "best project management software": 2400,
+   "best hr and payroll software": 50,
+   "best expense management software": 480,
+   "best accounts payable automation software": 390,
+   "best help desk software": 590,
+   "best marketing automation platform": 30,
+   "best sales engagement platform": 110,
+   "best customer success platform": 30,
+   "best product analytics tool": 110,
+   "best data warehouse": 90,
+   "best observability platform": 90,
+   "best endpoint security solution": 260,
+   "best password manager for teams": 50,
+   "best e-signature software": 320,
+   "best contract management software": 260,
+   "best procurement software": 210,
+   "best erp system": 1000,
+   "best data integration tool": 40,
+   "best identity and access management solution": null
+  }
+ },
+ "five_apps": {
+  "categories": 20,
+  "names_per_answer_median": {
+   "chatgpt": 4.0,
+   "aimode": 3.5,
+   "gemini": 5.0,
+   "aioverview": 4.0,
+   "claude": 4.0
+  },
+  "stability_jaccard_median_top8": {
+   "chatgpt": 0.6333333333333333,
+   "aimode": 0.5
+  },
+  "top_pick_same_on_all_three": "6 of 14",
+  "engines": [
+   "chatgpt",
+   "aimode",
+   "gemini",
+   "claude",
+   "aioverview"
+  ],
+  "top_pick_same_on_every_app": "5 of 13",
+  "top_pick_same_on_every_app_but_aioverview": "5 of 13",
+  "top_pick_largest_agreeing_group": {
+   "2 of 3": 1,
+   "3 of 4": 5,
+   "3 of 5": 4,
+   "4 of 4": 1,
+   "4 of 5": 3,
+   "5 of 5": 6
+  },
+  "first_picks": {
+   "CRM software": {
+    "chatgpt": "HubSpot CRM",
+    "aimode": "HubSpot Sales Hub",
+    "gemini": "HubSpot Sales Hub",
+    "claude": "HubSpot",
+    "aioverview": "HubSpot Smart CRM"
+   },
+   "ERP system": {
+    "chatgpt": "Oracle NetSuite",
+    "gemini": "Microsoft stack alignment",
+    "claude": "Oracle NetSuite",
+    "aioverview": "Oracle NetSuite"
+   },
+   "HR and payroll software": {
+    "chatgpt": "Rippling",
+    "aimode": "Rippling",
+    "gemini": "Rippling",
+    "claude": "Rippling",
+    "aioverview": "Rippling"
+   },
+   "accounts payable automation software": {
+    "chatgpt": "BILL, Tipalti, or Stampli",
+    "gemini": "Stampli",
+    "claude": "Tipalti",
+    "aioverview": "Tipalti"
+   },
+   "contract management (CLM) software": {
+    "aimode": "LinkSquares",
+    "gemini": "Juro",
+    "claude": "Juro",
+    "aioverview": "Juro"
+   },
+   "customer success platform": {
+    "chatgpt": "Vitally and Planhat",
+    "aimode": "ChurnZero",
+    "gemini": "ChurnZero",
+    "claude": "ChurnZero",
+    "aioverview": "ChurnZero"
+   },
+   "data integration (ETL) tool": {
+    "chatgpt": "Fivetran",
+    "aimode": "Fivetran",
+    "gemini": "Fivetran",
+    "claude": "Fivetran",
+    "aioverview": "Fivetran"
+   },
+   "data warehouse": {
+    "chatgpt": "Snowflake",
+    "aimode": "Snowflake",
+    "gemini": "Snowflake",
+    "claude": "Snowflake",
+    "aioverview": "Snowflake"
+   },
+   "e-signature software": {
+    "chatgpt": "DocuSign",
+    "aimode": "Docusign",
+    "gemini": "PandaDoc",
+    "aioverview": "DocuSign eSignature"
+   },
+   "endpoint security (EDR) solution": {
+    "chatgpt": "CrowdStrike Falcon",
+    "aimode": "CrowdStrike Falcon",
+    "gemini": "SentinelOne Singularity",
+    "claude": "Microsoft Defender for Endpoint",
+    "aioverview": "CrowdStrike Falcon"
+   },
+   "expense management software": {
+    "chatgpt": "Ramp",
+    "aimode": "Ramp",
+    "gemini": "Ramp",
+    "claude": "Ramp",
+    "aioverview": "Ramp"
+   },
+   "help desk software": {
+    "chatgpt": "Intercom",
+    "aimode": "HubSpot Service Hub",
+    "gemini": "HubSpot Service Hub",
+    "claude": "Zendesk",
+    "aioverview": "HubSpot Service Hub"
+   },
+   "identity and access management (SSO) solution": {
+    "chatgpt": "Okta",
+    "gemini": "Okta Workforce Identity",
+    "claude": "Okta's Core Essentials",
+    "aioverview": "Microsoft Entra ID"
+   },
+   "marketing automation platform": {
+    "chatgpt": "HubSpot Marketing Hub",
+    "aimode": "HubSpot Marketing Hub",
+    "gemini": "HubSpot Marketing Hub",
+    "claude": "ActiveCampaign",
+    "aioverview": "HubSpot Marketing Hub"
+   },
+   "observability platform": {
+    "chatgpt": "Grafana Cloud",
+    "aimode": "New Relic",
+    "gemini": "New Relic",
+    "claude": "New Relic",
+    "aioverview": "New Relic"
+   },
+   "password manager for teams": {
+    "chatgpt": "1Password Business",
+    "aimode": "1Password Business",
+    "gemini": "1Password",
+    "claude": "1Password Business",
+    "aioverview": "1Password Business"
+   },
+   "procurement software": {
+    "chatgpt": "Precoro",
+    "gemini": "Procurify",
+    "claude": "Procurify",
+    "aioverview": "Procurify"
+   },
+   "product analytics tool": {
+    "chatgpt": "Mixpanel",
+    "aimode": "Pendo",
+    "gemini": "Mixpanel",
+    "claude": "Pendo",
+    "aioverview": "Mixpanel"
+   },
+   "project management software": {
+    "chatgpt": "Asana",
+    "aimode": "Wrike",
+    "gemini": "Monday.com",
+    "claude": "Celoxis and Wrike",
+    "aioverview": "Wrike"
+   },
+   "sales engagement platform": {
+    "chatgpt": "Salesloft",
+    "gemini": "Salesloft",
+    "aioverview": "Apollo.io"
+   }
+  },
+  "source_kinds": {
+   "chatgpt": {
+    "third-party comparison / listicle": 1163,
+    "vendor's own site": 992,
+    "review site / analyst": 63,
+    "google (maps, listing)": 14,
+    "local press / city magazine": 2,
+    "hospital / university": 1
+   },
+   "aimode": {
+    "third-party comparison / listicle": 195,
+    "vendor's own site": 57,
+    "youtube": 38,
+    "reddit": 30,
+    "review site / analyst": 20
+   },
+   "gemini": {
+    "third-party comparison / listicle": 67,
+    "vendor's own site": 27,
+    "review site / analyst": 6,
+    "reddit": 1,
+    "youtube": 1
+   },
+   "aioverview": {
+    "third-party comparison / listicle": 108,
+    "vendor's own site": 28,
+    "review site / analyst": 11,
+    "reddit": 7,
+    "youtube": 6,
+    "listing / list site": 2,
+    "local press / city magazine": 1
+   },
+   "claude": {
+    "third-party comparison / listicle": 191,
+    "vendor's own site": 18,
+    "local press / city magazine": 7,
+    "review site / analyst": 3,
+    "google (maps, listing)": 1
+   }
+  },
+  "cited_kinds": {
+   "chatgpt": {
+    "third-party comparison / listicle": 150,
+    "vendor's own site": 103,
+    "review site / analyst": 8,
+    "google (maps, listing)": 1
+   },
+   "aimode": {
+    "third-party comparison / listicle": 450,
+    "vendor's own site": 91,
+    "youtube": 79,
+    "reddit": 52,
+    "review site / analyst": 39
+   },
+   "gemini": {
+    "third-party comparison / listicle": 82,
+    "vendor's own site": 30,
+    "review site / analyst": 6,
+    "reddit": 1,
+    "youtube": 1
+   },
+   "aioverview": {
+    "third-party comparison / listicle": 107,
+    "vendor's own site": 28,
+    "review site / analyst": 11,
+    "reddit": 7,
+    "youtube": 6,
+    "listing / list site": 2,
+    "local press / city magazine": 1
+   },
+   "claude": {
+    "third-party comparison / listicle": 119,
+    "vendor's own site": 12,
+    "review site / analyst": 3,
+    "local press / city magazine": 2,
+    "google (maps, listing)": 1
+   }
+  },
+  "share_of_ai_source_domains_in_google_top10_median": 0.05918367346938776,
+  "share_of_ai_cited_domains_in_google_top10_median": 0.0833976833976834,
+  "google_ai_overview_categories": "20 of 20",
+  "google_aio_reference_kinds": {
+   "third-party comparison / listicle": 82,
+   "vendor's own site": 23,
+   "youtube": 22,
+   "review site / analyst": 17,
+   "reddit": 16,
+   "listing / list site": 2
+  },
+  "google_organic_top10_kinds": {
+   "third-party comparison / listicle": 111,
+   "vendor's own site": 21,
+   "review site / analyst": 17,
+   "none": 11,
+   "reddit": 6,
+   "listing / list site": 1
+  },
+  "search_volume_best_category": {
+   "best crm software": 18100,
+   "best project management software": 2400,
+   "best hr and payroll software": 50,
+   "best expense management software": 480,
+   "best accounts payable automation software": 390,
+   "best help desk software": 590,
+   "best marketing automation platform": 30,
+   "best sales engagement platform": 110,
+   "best customer success platform": 30,
+   "best product analytics tool": 110,
+   "best data warehouse": 90,
+   "best observability platform": 90,
+   "best endpoint security solution": 260,
+   "best password manager for teams": 50,
+   "best e-signature software": 320,
+   "best contract management software": 260,
+   "best procurement software": 210,
+   "best erp system": 1000,
+   "best data integration tool": 40,
+   "best identity and access management solution": null
+  }
+ }
+}

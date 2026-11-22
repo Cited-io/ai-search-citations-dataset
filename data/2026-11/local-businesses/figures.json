@@ -1,0 +1,302 @@
+{
+ "law": {
+  "cities": 20,
+  "names_per_answer_median": {
+   "chatgpt": 5.0,
+   "aimode": 9.0,
+   "gemini": 1.0
+  },
+  "stability_median": {
+   "chatgpt": 0.5,
+   "aimode": 0.5
+  },
+  "top_pick_same_on_all_three": "0 of 12",
+  "named_in_maps_top20": {
+   "chatgpt": "36 of 87",
+   "aimode": "76 of 167",
+   "gemini": "9 of 41"
+  },
+  "named_in_maps_top3": {
+   "chatgpt": "7 of 87",
+   "aimode": "13 of 167",
+   "gemini": "2 of 41"
+  },
+  "reviews_median_named_vs_not": [
+   368,
+   68.5,
+   103,
+   296
+  ],
+  "rating_median_named_vs_not": [
+   4.9,
+   4.9
+  ],
+  "cited_kinds_pct": {
+   "chatgpt": {
+    "industry directory": 45,
+    "best-of list site": 16,
+    "ranking / directory site": 14,
+    "business website or other": 11,
+    "Yelp": 9,
+    "Google listing": 6,
+    "_total": 127
+   },
+   "aimode": {
+    "Google listing": 80,
+    "business website or other": 15,
+    "industry directory": 4,
+    "ranking / directory site": 1,
+    "social / Nextdoor": 0,
+    "Yelp": 0,
+    "Reddit": 0,
+    "_total": 775
+   },
+   "gemini": {
+    "industry directory": 44,
+    "business website or other": 33,
+    "ranking / directory site": 21,
+    "review / finance publisher": 2,
+    "_total": 96
+   }
+  },
+  "source_kinds_pct": {
+   "chatgpt": {
+    "industry directory": 78,
+    "best-of list site": 7,
+    "ranking / directory site": 7,
+    "business website or other": 6,
+    "Yelp": 1,
+    "Google listing": 1,
+    "_total": 1064
+   },
+   "aimode": {
+    "Google listing": 78,
+    "business website or other": 16,
+    "industry directory": 5,
+    "ranking / directory site": 0,
+    "Yelp": 0,
+    "social / Nextdoor": 0,
+    "Reddit": 0,
+    "_total": 409
+   },
+   "gemini": {
+    "industry directory": 45,
+    "business website or other": 30,
+    "ranking / directory site": 23,
+    "review / finance publisher": 2,
+    "_total": 88
+   }
+  },
+  "google_aio": "12 of 20",
+  "google_local_pack": "18 of 20",
+  "google_aio_reference_kinds": {
+   "business website or other": 48,
+   "Google listing": 31,
+   "industry directory": 6,
+   "social / Nextdoor": 4,
+   "YouTube": 3,
+   "Reddit": 2,
+   "ranking / directory site": 2
+  }
+ },
+ "roofing": {
+  "cities": 20,
+  "names_per_answer_median": {
+   "chatgpt": 5.0,
+   "aimode": 7.0,
+   "gemini": 5.5
+  },
+  "stability_median": {
+   "chatgpt": 0.55,
+   "aimode": 0.5
+  },
+  "top_pick_same_on_all_three": "2 of 19",
+  "named_in_maps_top20": {
+   "chatgpt": "37 of 92",
+   "aimode": "74 of 145",
+   "gemini": "31 of 112"
+  },
+  "named_in_maps_top3": {
+   "chatgpt": "7 of 92",
+   "aimode": "17 of 145",
+   "gemini": "6 of 112"
+  },
+  "reviews_median_named_vs_not": [
+   225,
+   52,
+   99,
+   299
+  ],
+  "rating_median_named_vs_not": [
+   4.9,
+   4.9
+  ],
+  "cited_kinds_pct": {
+   "chatgpt": {
+    "ranking / directory site": 53,
+    "business website or other": 21,
+    "industry directory": 12,
+    "best-of list site": 10,
+    "Google listing": 2,
+    "local press": 1,
+    "Yelp": 1,
+    "_total": 164
+   },
+   "aimode": {
+    "Google listing": 86,
+    "business website or other": 6,
+    "Reddit": 3,
+    "industry directory": 3,
+    "Yelp": 1,
+    "ranking / directory site": 1,
+    "review / finance publisher": 1,
+    "social / Nextdoor": 0,
+    "_total": 594
+   },
+   "gemini": {
+    "business website or other": 57,
+    "industry directory": 29,
+    "ranking / directory site": 7,
+    "Reddit": 7,
+    "_total": 56
+   }
+  },
+  "source_kinds_pct": {
+   "chatgpt": {
+    "ranking / directory site": 44,
+    "business website or other": 26,
+    "best-of list site": 18,
+    "industry directory": 11,
+    "local press": 0,
+    "Google listing": 0,
+    "Yelp": 0,
+    "_total": 1090
+   },
+   "aimode": {
+    "Google listing": 83,
+    "business website or other": 6,
+    "Reddit": 4,
+    "industry directory": 3,
+    "Yelp": 2,
+    "review / finance publisher": 1,
+    "ranking / directory site": 1,
+    "social / Nextdoor": 0,
+    "_total": 348
+   },
+   "gemini": {
+    "business website or other": 54,
+    "industry directory": 33,
+    "ranking / directory site": 7,
+    "Reddit": 7,
+    "_total": 46
+   }
+  },
+  "google_aio": "7 of 20",
+  "google_local_pack": "19 of 20",
+  "google_aio_reference_kinds": {
+   "Google listing": 30,
+   "business website or other": 13,
+   "Reddit": 3,
+   "industry directory": 2,
+   "ranking / directory site": 1,
+   "BBB": 1,
+   "YouTube": 1
+  }
+ },
+ "medspa": {
+  "cities": 20,
+  "names_per_answer_median": {
+   "chatgpt": 5.0,
+   "aimode": 7.5,
+   "gemini": 2.5
+  },
+  "stability_median": {
+   "chatgpt": 0.5,
+   "aimode": 0.55
+  },
+  "top_pick_same_on_all_three": "1 of 13",
+  "named_in_maps_top20": {
+   "chatgpt": "50 of 95",
+   "aimode": "103 of 151",
+   "gemini": "20 of 53"
+  },
+  "named_in_maps_top3": {
+   "chatgpt": "10 of 95",
+   "aimode": "24 of 151",
+   "gemini": "7 of 53"
+  },
+  "reviews_median_named_vs_not": [
+   298.0,
+   90,
+   134,
+   263
+  ],
+  "rating_median_named_vs_not": [
+   4.9,
+   4.9
+  ],
+  "cited_kinds_pct": {
+   "chatgpt": {
+    "ranking / directory site": 82,
+    "business website or other": 11,
+    "best-of list site": 3,
+    "local press": 2,
+    "Yelp": 1,
+    "Google listing": 1,
+    "_total": 95
+   },
+   "aimode": {
+    "Google listing": 93,
+    "business website or other": 4,
+    "Reddit": 1,
+    "ranking / directory site": 0,
+    "industry directory": 0,
+    "Yelp": 0,
+    "_total": 553
+   },
+   "gemini": {
+    "ranking / directory site": 67,
+    "business website or other": 29,
+    "Reddit": 2,
+    "best-of list site": 1,
+    "_total": 85
+   }
+  },
+  "source_kinds_pct": {
+   "chatgpt": {
+    "ranking / directory site": 78,
+    "business website or other": 13,
+    "best-of list site": 7,
+    "local press": 1,
+    "industry directory": 0,
+    "Yelp": 0,
+    "Google listing": 0,
+    "_total": 937
+   },
+   "aimode": {
+    "Google listing": 91,
+    "business website or other": 6,
+    "Reddit": 2,
+    "ranking / directory site": 1,
+    "industry directory": 1,
+    "Yelp": 0,
+    "_total": 325
+   },
+   "gemini": {
+    "ranking / directory site": 65,
+    "business website or other": 31,
+    "Reddit": 3,
+    "best-of list site": 1,
+    "_total": 77
+   }
+  },
+  "google_aio": "8 of 20",
+  "google_local_pack": "18 of 20",
+  "google_aio_reference_kinds": {
+   "Google listing": 26,
+   "business website or other": 14,
+   "Yelp": 1,
+   "social / Nextdoor": 1
+  }
+ }
+}
